@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="com.github.mapkiwiz.routing:jgrapht-routing-core:0.4" type="repository">
+    <properties maven-id="com.github.mapkiwiz.routing:jgrapht-routing-core:0.4" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/github/mapkiwiz/routing/jgrapht-routing-core/0.4/jgrapht-routing-core-0.4.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-jdbc/4.2.0.RELEASE/spring-jdbc-4.2.0.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.2.0.RELEASE/spring-beans-4.2.0.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.2.0.RELEASE/spring-core-4.2.0.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.2.0.RELEASE/spring-tx-4.2.0.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/repository/org/jgrapht/jgrapht-core/0.9.1/jgrapht-core-0.9.1.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/repository/org/apache/commons/commons-csv/1.1/commons-csv-1.1.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/repository/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/repository/org/slf4j/slf4j-simple/1.7.2/slf4j-simple-1.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
