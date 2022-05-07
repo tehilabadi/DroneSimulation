@@ -156,7 +156,6 @@ public class Drone {
 	
 	public String getInfoHTML() {
 		DecimalFormat df = new DecimalFormat("#.####");
-		
 		String info = "<html>";
 		info += "Rotation: " + df.format(rotation) +"<br>";
 		info += "Location: " + pointFromStart +"<br>";

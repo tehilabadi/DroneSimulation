@@ -253,22 +253,28 @@ public class SimulationWindow {
 		info_label = new JLabel();
 		info_label.setBounds(width-250, height-300, 300, 200);
 		frame.getContentPane().add(info_label);
-		
+
+		time_label = new JLabel();
+		time_label.setBounds(width-250, height-360, 300, 200);
+		frame.getContentPane().add(time_label);
+
 		/*
 		 * Info label 
 		 */
-		
-		
 		info_label2 = new JLabel();
 		info_label2.setBounds(width-250, height-400, 300, 200);
 		frame.getContentPane().add(info_label2);
-		
+
 		main();
 	}
 	public JLabel info_label2;
+	public JLabel time_label;
 	public static boolean toogleRealMap = true;
 	public static boolean toogleAI = false;
-	
+
+	public static double time = 0.0;
+	public static double startTime = 0.0;
+
 	public static AutoAlgo1 algo1;
 	
 	
@@ -298,17 +304,22 @@ public class SimulationWindow {
 		CPU updatesCPU = new CPU(60,"updates");
 		updatesCPU.addFunction(algo1.drone::update);
 		updatesCPU.play();
-		
+		startTime = System.nanoTime();
 		CPU infoCPU = new CPU(6,"update_info");
 		infoCPU.addFunction(this::updateInfo);
 		infoCPU.play();
 	}
 	
 	public void updateInfo(int deltaTime) {
+		double endTime   = System.nanoTime();
+		time = (endTime - startTime)/1000000000;
+		if(time > 240 && !return_home){
+			return_home = true;
+		}
 		info_label.setText(algo1.drone.getInfoHTML());
 		info_label2.setText("<html>" + String.valueOf(algo1.counter) + " <BR>isRisky:" + String.valueOf(algo1.is_risky) + 
 				"<BR>" + String.valueOf(algo1.risky_dis) + "</html>");
-		
+		time_label.setText("<html>" +"<BR>time:" + String.valueOf(time) + "<BR>return home:" + String.valueOf(return_home) + "</html>");
 	}
 	
 	public void stopCPUS() {

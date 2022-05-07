@@ -37,9 +37,6 @@ public class Lidar{
 			distanceInCM = getDistance(deltaTime);
 			distanceInCM += (int)ran.nextInt(WorldParams.lidarNoise*2) - WorldParams.lidarNoise; // +- 5 CM to the final calc
 		}
-		
-		
-		
 		this.current_distance = distanceInCM; // store it for instance get
 		return distanceInCM;
 	}
