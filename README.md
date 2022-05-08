@@ -1,7 +1,7 @@
 
 The project was rewritten by 
-Ariel Yifee and 
-Tehila Abadi
+-Ariel Yifee and 
+-Tehila Abadi
 
 # our part:
 ## UI
