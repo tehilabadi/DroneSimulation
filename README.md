@@ -33,6 +33,9 @@ to import the following directories:
 - javabits.jgrapht.demo2
 - jgrapht.core2
 
+## how to use?
+The project must first be cloned by selecting the latest update, importing from maven the directories written in some libraries and then the project can be run.
+In the drop-down screen, click on the start button
 
 # Drone Simulator
 The main goal for this project is to try find good solution of small drone, flying inside indoor building without getting hit and crash.
