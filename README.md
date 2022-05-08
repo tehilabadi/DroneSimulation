@@ -1,9 +1,9 @@
 
-The project was written by 
+The project was rewritten by 
 Ariel Yifee and 
 Tehila Abadi
 
-# what we did?
+# our part:
 ## UI
 first, we changed the UI of the project.
 We wanted a screen that fit all computer arc regardless of 
