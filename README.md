@@ -29,9 +29,9 @@ and actually comes back to the starting point.
 In order to run the code, it is necessary 
 to import the following directories:
 
-github.vlsi.mxgraph.jgraphx2
-javabits.jgrapht.demo2
-jgrapht.core2
+- github.vlsi.mxgraph.jgraphx2
+- javabits.jgrapht.demo2
+- jgrapht.core2
 
 
 # Drone Simulator
