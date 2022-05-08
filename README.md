@@ -1,9 +1,9 @@
-# what we did?
+
 The project was written by 
 Ariel Yifee and 
 Tehila Abadi
 
-
+## what we did?
 # UI
 first, we changed the UI of the project.
 We wanted a screen that fit all computer arc regardless of 
@@ -20,7 +20,7 @@ the drone rotates 180 degrees and from that moment performs the return
 on the track by sticking to the right wall (i.e. repeats the source wall) 
 and actually comes back to the starting point.
 
-# librarys
+# Libraries
 In order to run the code, it is necessary to import the following directories:
 
 github.vlsi.mxgraph.jgraphx2
