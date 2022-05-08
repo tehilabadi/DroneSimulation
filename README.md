@@ -3,25 +3,31 @@ The project was written by
 Ariel Yifee and 
 Tehila Abadi
 
-## what we did?
-# UI
+# what we did?
+## UI
 first, we changed the UI of the project.
 We wanted a screen that fit all computer arc regardless of 
 the screen size that runs the code.
 We changed the look of the buttons to a more convenient and accessible 
 interface and of course generic for all types of users and monitors.
 
-# Algorithm
-In the algorithm, we defined for the drone the need to always choose the wall to its left
+## Algorithm
+In the algorithm, we defined for the drone the need
+to always choose the wall to its left
 and by doing so always move forward.
-This is how we created a situation where the glider is always advancing and does not enter infinite circles.
-After 4 minutes (when the battery runs out) or when the 'return home' mode is activated,
-the drone rotates 180 degrees and from that moment performs the return
-on the track by sticking to the right wall (i.e. repeats the source wall) 
+This is how we created a situation where the glider
+is always advancing and does not enter infinite circles.
+After 4 minutes (when the battery runs out)
+or when the 'return home' mode is activated,
+the drone rotates 180 degrees and from that
+moment performs the returnon the track by 
+sticking to the right wall 
+(i.e. repeats the source wall) 
 and actually comes back to the starting point.
 
-# Libraries
-In order to run the code, it is necessary to import the following directories:
+## Libraries
+In order to run the code, it is necessary 
+to import the following directories:
 
 github.vlsi.mxgraph.jgraphx2
 javabits.jgrapht.demo2
